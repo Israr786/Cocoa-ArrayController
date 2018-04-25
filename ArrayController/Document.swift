@@ -9,6 +9,10 @@
 import Cocoa
 
 class Document: NSDocument {
+    
+    
+   
+    @objc dynamic var songs:[Songs]=[]
 
     override init() {
         super.init()
